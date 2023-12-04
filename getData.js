@@ -4,7 +4,7 @@ const resultTemp = document.getElementById('temp');
 const resultDateTime = document.getElementById('datetime');
 
 async function fetchData() {
-  const apiUrl = 'http://172.16.1.34:3000';
+  const apiUrl = 'http://172.16.1.33:3000';
 
   const options = {
     method: 'GET',
