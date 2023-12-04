@@ -1,5 +1,4 @@
-//скрипт вызывается на странице getData.html запрашивает данные от искры по  интервалу 10 мин и отдает на страницу
-const resultPress = document.getElementById('press');
+
 const resultTemp = document.getElementById('temp');
 const resultDateTime = document.getElementById('datetime');
 
@@ -32,4 +31,4 @@ async function fetchData() {
     console.log('Ошибка:', error.message);
   }
 }
-setInterval(fetchData, 6000);
+setInterval(fetchData, 60000);
